@@ -15,9 +15,10 @@ function calculer() {
 
     console.log("taille :" + taille);
     console.log("poids :" + poids);
+    console.log("imc :" + imc);
 
 
-    
+
     if (imc <= 18.5) {
         document.getElementById("tranche").innerHTML = "Maigreur";
     }
