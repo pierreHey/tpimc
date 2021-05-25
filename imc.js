@@ -18,7 +18,6 @@ function calculer() {
     console.log("imc :" + imc);
 
 
-
     if (imc <= 18.5) {
         document.getElementById("tranche").innerHTML = "Maigreur";
     }
@@ -29,8 +28,7 @@ function calculer() {
         document.getElementById("tranche").innerHTML = "surpoids"
     }
 
-
-
-
-
+    taille = document.getElementById("taille").value="";
+    taille = document.getElementById("poids").value="";
+    
 }
