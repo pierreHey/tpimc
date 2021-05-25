@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="imc.js"></script>
     <title>IMC</title>
 </head>
+
 <body>
-    <label>Taille : </label><input type="text">
-    <label>Poids</label>
+    <label>Taille : </label><input id="taille" type="text">
+    <label>Poids : </label><input id="poids" type="text">
+
+    <button onclick="calculer()">Calculer</button>
+
+    <p id="imc"></p>
+    <p id="tranche"></p>
+    
 </body>
+
 </html>
