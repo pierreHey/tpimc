@@ -1,0 +1,20 @@
+label{
+    margin:5px;  
+    padding:5px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#formu{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+button{
+    border-radius: 25px;
+}
+input{
+    border-radius: 25px;
+}
