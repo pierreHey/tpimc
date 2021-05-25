@@ -2,9 +2,6 @@ function calculer() {
     let taille = document.getElementById("taille").value;
     let poids = document.getElementById("poids").value;
 
-    console.log("taille :" + taille);
-    console.log("poids :" + poids);
-
 
     let tailleParsed = Number(taille);
     let poidsParsed = Number(poids);
@@ -13,15 +10,21 @@ function calculer() {
     let imc = poidsParsed / (tailleParsed * tailleParsed);
     imc = Math.round(imc * 10) / 10;
 
+
     document.getElementById("imc").innerHTML = "IMC : " + imc;
 
-    if (imc <= 18.5){
+    console.log("taille :" + taille);
+    console.log("poids :" + poids);
+
+
+    
+    if (imc <= 18.5) {
         document.getElementById("tranche").innerHTML = "Maigreur";
     }
-    else if (imc <= 25){
+    else if (imc <= 25) {
         document.getElementById("tranche").innerHTML = "Normal"
     }
-    else{
+    else {
         document.getElementById("tranche").innerHTML = "surpoids"
     }
 
